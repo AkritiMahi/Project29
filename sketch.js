@@ -12,11 +12,11 @@ function preload(){
 
 function setup(){
 
-    createCanvas(900, 400);
+    createCanvas(1400, 600);
     engine = Engine.create();
     world = engine.world;
     Engine.run(engine);
-    ground1 = new Ground(450, 390, 900, 20);
+    ground1 = new Ground(700, 580, 1400, 20);
     ground2 = new Ground(390,300,250,10);
     ground3 = new Ground(700,200,200,10);
     //level one
@@ -88,11 +88,11 @@ function draw(){
     block10.display();
     block11.display();
     block12.display();
-    fill("turquoise");
+    fill("blue");
     block13.display();
     block14.display();
     block15.display();
-    fill("grey");
+    fill("green");
     block16.display();
     fill("skyblue");
     blocks1.display();
@@ -100,7 +100,7 @@ function draw(){
     blocks3.display();
     blocks4.display();
     blocks5.display();
-    fill("turquoise");
+    fill("blue");
     blocks6.display();
     blocks7.display();
     blocks8.display();
